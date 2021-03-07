@@ -15,7 +15,7 @@ Just clone it and don't worry about the first step configuration.
 
 **2.** Clone it in your machine:
 ```bash
-git clone https:
+git clone https://github.com/fabioaraujo121/dockerbase.git
 ```
 
 **3.** Jump in the folder you just cloned:
@@ -37,6 +37,7 @@ docker exec -it dockerbase_app /bin/bash
 If your style is not working properly it might mean that we didn't install the Bootstrap 5 correctly.
 You'll need to connect your container:
 ```bash
+docker exec -it dockerbase_app /bin/bash
 ```
 
 Then you'll need to run these installations below:
