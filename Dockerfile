@@ -35,6 +35,10 @@ RUN yarn install --check-files
 
 RUN rails webpacker:install
 
-RUN yarn add bootstrap@next
+RUN yarn add bootstrap@5.1.3
 
 RUN yarn add popper.js
+
+RUN rails db:create
+
+RUN rails webpacker:install

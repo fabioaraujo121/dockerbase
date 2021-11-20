@@ -7,7 +7,7 @@ Just clone it and don't worry about the first step configuration.
 ### Versions
 - **Ruby**: 3.0.0
 - **Ruby on Rails**: 6.1.1
-- **Bootstrap**: 5.0.0-beta1
+- **Bootstrap**: 5.1.3
 
 ### Setup
 
